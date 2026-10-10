@@ -71,8 +71,8 @@ export const aboutMessage = `🤖 <a href='https://github.com/TechifyBots/Auto-R
 😶‍🌫️ 𝖳𝗁𝖺𝗇𝗄𝗌 𝖿𝗈𝗋 𝗎𝗌𝗂𝗇𝗀 𝗍𝗁𝖾 𝖻𝗈𝗍.
 
 » 🚀 𝗩𝗲𝗿𝘀𝗶𝗼𝗻: v${VERSION}
-» 🔔 𝗨𝗽𝗱𝗮𝘁𝗲: <b><a href='https://telegram.me/TechifyBots'>Techify Bots</a></b>
-» 💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: <b><a href='https://telegram.me/ImRahulDhankhar'>𝘙𝘢𝘩𝘶𝘭</a></b>`
+» 🔔 𝗨𝗽𝗱𝗮𝘁𝗲: <b><a href='https://telegram.me/AnimeNetworkTamil'>Anime Network Tamil</a></b>
+» 💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: <b><a href='https://telegram.me/Shinchan_9_5'>Shinchan</a></b>`
 
 // ══════════════════════════════════════════════════════════════
 // DONATE MESSAGE
@@ -85,9 +85,9 @@ export const donateMessage = `🎁 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗧𝗵𝗲 �
 
 💰 𝗗𝗼𝗻𝗮𝘁𝗶𝗼𝗻 𝗗𝗲𝘁𝗮𝗶𝗹𝘀:
 
-🌐 <b>𝗗𝗼𝗻𝗮𝘁𝗲:</b> <a href="https://techifybots.github.io/PayWeb">💝 𝖲𝗎𝗉𝗉𝗈𝗋𝗍</a>
+🌐 <b>𝗗𝗼𝗻𝗮𝘁𝗲:</b> <a href="https://telegram.me/AnimeNetworktamil">💝 𝖲𝗎𝗉𝗉𝗈𝗋𝗍</a>
 
-🇮🇳 𝗨𝗣𝗜 𝗜𝗗: <code>RahulDhankhar@UPI</code>
+🇮🇳 𝗨𝗣𝗜 𝗜𝗗: <code>@UPI</code>
 
 ────────────────
 
@@ -98,7 +98,7 @@ export const donateMessage = `🎁 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗧𝗵𝗲 �
 // ══════════════════════════════════════════════════════════════
 
 // ---- FEATURE: /stats header ----
-export const statsHeader = `📊 𝗔𝗹𝘆𝗮 𝗕𝗼𝘁 𝗦𝘁𝗮𝘁𝘀\n\n`
+export const statsHeader = `📊  𝗕𝗼𝘁 𝗦𝘁𝗮𝘁𝘀\n\n`
 
 // ---- FEATURE: /setreactions success ----
 export const reactionsUpdated = `✅ 𝗥𝗲𝗮𝗰𝘁𝗶𝗼𝗻𝘀 𝗨𝗽𝗱𝗮𝘁𝗲𝗱!\n\n<i>𝖭𝖾𝗐 𝗋𝖾𝖺𝖼𝗍𝗂𝗈𝗇𝗌 𝗁𝖺𝗏𝖾 𝖻𝖾𝖾𝗇 𝖺𝗉𝗉𝗅𝗂𝖾𝖽 𝗌𝗎𝖼𝖼𝖾𝗌𝗌𝖿𝗎𝗅𝗅𝗒 ✨</i>\n\n`
