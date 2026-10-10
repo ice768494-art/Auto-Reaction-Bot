@@ -205,7 +205,7 @@ function getStartKeyboard(botUsername, userId, ownerId) {
 function getAboutKeyboard() {
     return [
         [
-            { text: '🌐 𝖶𝖾𝖻𝗌𝗂𝗍𝖾 ✨', url: 'https://alyareactionbot.vercel.app', style: 'success' }
+            { text: '🌐 𝖶𝖾𝖻𝗌𝗂𝗍𝖾 ✨', url: 'https://my-web-ten-orcin.vercel.app/', style: 'success' }
         ],
         [
             { text: '☕ 𝖣𝗈𝗇𝖺𝗍𝖾', callback_data: 'cb_donate', style: 'primary' },
@@ -232,8 +232,8 @@ function getHelpKeyboard(userId, ownerId) {
             { text: '✨ 𝖱𝖾𝖺𝖼𝗍𝗂𝗈𝗇𝗌 💫', callback_data: 'cb_reactions', style: 'success' },
         ],
         [
-            { text: '📢 𝖴𝗉𝖽𝖺𝗍𝖾𝗌', url: 'https://telegram.me/TechifyBots', style: 'primary' },
-            { text: '💬 𝖲𝗎𝗉𝗉𝗈𝗋𝗍', url: 'https://telegram.me/TechifySupport', style: 'primary' },
+            { text: '📢 𝖴𝗉𝖽𝖺𝗍𝖾𝗌', url: 'https://telegram.me/AnimeNetworkTamil', style: 'primary' },
+            { text: '💬 Discussion', url: 'https://telegram.me/Tamil_Animes_New', style: 'primary' },
         ],
     ];
 
