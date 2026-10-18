@@ -4,17 +4,19 @@ import { VERSION } from './version.js';
 // START MESSAGE
 // ══════════════════════════════════════════════════════════════
 
-export const startMessage = `🎀 𝗪𝗲𝗹𝗰𝗼𝗺𝗲, <b>UserName!</b>
+// Add an image URL at the very beginning wrapped in an invisible link tag
+export const startMessage = `<a href="https://i.ibb.co/8gjQJFv4/da6bee925908.jpg">&#8203;</a>👋 Welcome, <b><UserName>!</b>
 
-<i>𝖳𝗁𝖺𝗇𝗄 𝗒𝗈𝗎 𝖿𝗈𝗋 𝗌𝗍𝖺𝗋𝗍𝗂𝗇𝗀 𝗍𝗁𝖾 𝖻𝗈𝗍 ✨</i>
+<i>Thank you for starting the bot ✨</i>
 
-🤖 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝗧𝗼 𝗥𝗲𝗮𝗰𝘁𝗶𝗼𝗻 𝗕𝗼𝘁
+🤖 <b>Welcome To Reaction Bot</b>
 
-💬 𝗜𝗻𝗳𝗼:
-• 𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗖𝗵𝗮𝘁: 𝖨 𝖼𝖺𝗇 𝗋𝖾𝖺𝖼𝗍 𝗍𝗈 𝗒𝗈𝗎𝗋 𝗆𝖾𝗌𝗌𝖺𝗀𝖾𝗌.
-• 𝗚𝗿𝗼𝘂𝗽𝘀 & 𝗖𝗵𝗮𝗻𝗻𝗲𝗹𝘀: 𝖠𝖽𝖽 𝗆𝖾 𝗍𝗈 𝗀𝗋𝗈𝗎𝗉𝗌 𝗈𝗋 𝖼𝗁𝖺𝗇𝗇𝖾𝗅𝗌 𝗍𝗈 𝖾𝗇𝖺𝖻𝗅𝖾 𝗋𝖾𝖺𝖼𝗍𝗂𝗈𝗇𝗌.
+📌 <b>Info:</b>
+• <b>Private Chat:</b> I can react to your messages.
+• <b>Groups & Channels:</b> Add me to groups or channels to enable reactions.
 
-😶‍🌫️ 𝖴𝗌𝖾 𝗍𝗁𝖾 𝖻𝗎𝗍𝗍𝗈𝗇𝗌 𝖻𝖾𝗅𝗈𝗐 𝗍𝗈 𝖾𝗑𝗉𝗅𝗈𝗋𝖾 𝗆𝗈𝗋𝖾.`
+💡 Use the buttons below to explore more.`;
+
 
 // ══════════════════════════════════════════════════════════════
 // HELP MESSAGE
@@ -87,7 +89,7 @@ export const donateMessage = `🎁 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗧𝗵𝗲 �
 
 🌐 <b>𝗗𝗼𝗻𝗮𝘁𝗲:</b> <a href="https://telegram.me/CodeRips">💝 𝖲𝗎𝗉𝗉𝗈𝗋𝗍</a>
 
-🇮🇳 𝗨𝗣𝗜 𝗜𝗗 DM To Donate</b> <a href="https://t.me/Code_Rips_support_bot">Donate 💜</a>
+🇮🇳 𝗨𝗣𝗜 𝗜𝗗 DM To Donate:</b> <a href="https://t.me/Code_Rips_support_bot">Donate 💜</a>
 
 ────────────────
 
