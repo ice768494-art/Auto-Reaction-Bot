@@ -270,6 +270,10 @@ function getCloseKeyboard() {
 // FORCE SUBSCRIBE
 // ══════════════════════════════════════════════════════════════
 
+// ==========================================
+// FORCE SUBSCRIBE LOGIC
+// ==========================================
+
 async function checkForceSubscribe(botApi, userId, channels) {
     if (!channels || channels.length === 0) return { subscribed: true, notJoined: [] };
 
@@ -279,34 +283,40 @@ async function checkForceSubscribe(botApi, userId, channels) {
         try {
             const member = await botApi.getChatMember(channel, userId);
             const status = member?.result?.status;
+
+            // Check if status indicates the user hasn't joined or is blocked
             if (!status || ['left', 'kicked', 'banned'].includes(status)) {
                 notJoined.push(channel);
             }
         } catch {
-            // Channel might be invalid or bot not admin — skip silently
-            log.warn(`[ForceSub] Cannot check membership for ${channel}`);
+            // Channel might be invalid or bot is not an admin - skip silently
+            console.warn(`[ForceSub] Cannot check membership for ${channel}`);
         }
     }
 
-    return { subscribed: notJoined.length === 0, notJoined };
+    return { 
+        subscribed: notJoined.length === 0, 
+        notJoined 
+    };
 }
 
 function getForceSubMessage(notJoined) {
-    const buttons = notJoined.map((ch, i) => {
+    const buttons = notJoined.map((ch) => {
         const clean = ch.replace(/^@/, '');
-        const url = clean.match(/^-?\d+$/)
-            ? `https://telegram.me/CodeRips`
-            : `https://telegram.me/CodeRips`;
-        return [{ text: `📢 𝖩𝗈𝗂𝗇 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 ✨`, url, style: 'success' }];
+        const url = `https://t.me/${clean}`; // Link dynamically created for @CodeRips or any channel
+
+        return [{ text: '📢 Join Channel ✨', url: url, style: 'success' }];
     });
 
-    buttons.push([{ text: '🔄 𝖳𝗋𝗒 𝖠𝗀𝖺𝗂𝗇 ✨', callback_data: 'cb_forcecheck', style: 'primary' }]);
+    // Add a refresh/try again button
+    buttons.push([{ text: '🔄 Try Again ✨', callback_data: 'cb_forcecheck', style: 'primary' }]);
 
     return {
-        text: `🚀 𝖠𝖼𝖼𝖾𝗌𝗌 𝖱𝖾𝗊𝗎𝗂𝗋𝖾𝖽\n\n📢 𝖯𝗅𝖾𝖺𝗌𝖾 𝗃𝗈𝗂𝗇 𝗍𝗁𝖾 𝗋𝖾𝗊𝗎𝗂𝗋𝖾𝖽 𝖼𝗁𝖺𝗇𝗇𝖾𝗅(𝗌) 𝖿𝗂𝗋𝗌𝗍.\n\n✨ 𝖮𝗇𝖼𝖾 𝗒𝗈𝗎'𝗏𝖾 𝗃𝗈𝗂𝗇𝖾𝖽, 𝗍𝖺𝗉 "𝖳𝗋𝗒 𝖠𝗀𝖺𝗂𝗇" 𝗍𝗈 𝖼𝗈𝗇𝗍𝗂𝗇𝗎𝖾.`,
-        keyboard: buttons,
+        text: '🚀 **Access Required**\n\n📢 Please join the required channel(s) first.\n\n✨ Once you have joined, click **"Try Again"** below to continue.',
+        keyboard: buttons
     };
 }
+
 
 
 // ══════════════════════════════════════════════════════════════
