@@ -64,7 +64,7 @@ export const adminPanelMessage = `👑 𝗔𝗱𝗺𝗶𝗻 𝗣𝗮𝗻𝗲𝗹
 // ══════════════════════════════════════════════════════════════
 
 // ---- FEATURE: /about bot info + character lore ----
-export const aboutMessage = `🤖 <a href='https://github.com/TechifyBots/Auto-Reaction-Bot'>𝗥𝗲𝗮𝗰𝘁𝗶𝗼𝗻 𝗕𝗼𝘁</a> 𝖼𝗋𝖺𝖿𝗍𝖾𝖽 𝖻𝗒 <b>CodeRips</b> 𝗎𝗌𝗂𝗇𝗀 <b>Node.js</b> & <b>Express</b> — 𝖽𝖾𝗌𝗂𝗀𝗇𝖾𝖽 𝗍𝗈 𝖻𝗋𝗂𝗇𝗀 𝗌𝗆𝖺𝗋𝗍 𝗋𝖾𝖺𝖼𝗍𝗂𝗈𝗇𝗌, 𝗀𝗋𝗈𝗎𝗉 𝗍𝗈𝗈𝗅𝗌, 𝖺𝗇𝖽 𝖺𝗎𝗍𝗈𝗆𝖺𝗍𝗂𝗈𝗇 𝗂𝗇𝗍𝗈 𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗆.
+export const aboutMessage = `🤖 <a href='https://github.com/ice768494-art/Auto-Reaction-Bot.git'>𝗥𝗲𝗮𝗰𝘁𝗶𝗼𝗻 𝗕𝗼𝘁</a> 𝖼𝗋𝖺𝖿𝗍𝖾𝖽 𝖻𝗒 <b>CodeRips</b> 𝗎𝗌𝗂𝗇𝗀 <b>Node.js</b> & <b>Express</b> — 𝖽𝖾𝗌𝗂𝗀𝗇𝖾𝖽 𝗍𝗈 𝖻𝗋𝗂𝗇𝗀 𝗌𝗆𝖺𝗋𝗍 𝗋𝖾𝖺𝖼𝗍𝗂𝗈𝗇𝗌, 𝗀𝗋𝗈𝗎𝗉 𝗍𝗈𝗈𝗅𝗌, 𝖺𝗇𝖽 𝖺𝗎𝗍𝗈𝗆𝖺𝗍𝗂𝗈𝗇 𝗂𝗇𝗍𝗈 𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗆.
 
 𝗧𝗵𝗶𝘀 𝗕𝗼𝘁 𝗪𝗮𝘀 𝗕𝘂𝗶𝗹𝘁 𝗧𝗼 𝗕𝗲 𝗙𝗮𝘀𝘁, 𝗦𝗺𝗮𝗿𝘁, 𝗔𝗻𝗱 𝗦𝗶𝗺𝗽𝗹𝗲 — 𝖿𝗋𝗈𝗆 𝗋𝖾𝖺𝖼𝗍𝗂𝗈𝗇 𝗌𝗒𝗌𝗍𝖾𝗆𝗌 𝗍𝗈 𝗀𝗋𝗈𝗎𝗉 𝗆𝖺𝗇𝖺𝗀𝖾𝗆𝖾𝗇𝗍, 𝖾𝗏𝖾𝗋𝗒𝗍𝗁𝗂𝗇𝗀 𝗂𝗌 𝖽𝖾𝗌𝗂𝗀𝗇𝖾𝖽 𝗍𝗈 𝗆𝖺𝗄𝖾 𝗒𝗈𝗎𝗋 𝖾𝗑𝗉𝖾𝗋𝗂𝖾𝗇𝖼𝖾 𝗌𝗆𝗈𝗈𝗍𝗁 ✨
 
