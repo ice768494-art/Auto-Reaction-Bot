@@ -85,9 +85,9 @@ export const donateMessage = `🎁 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗧𝗵𝗲 �
 
 💰 𝗗𝗼𝗻𝗮𝘁𝗶𝗼𝗻 𝗗𝗲𝘁𝗮𝗶𝗹𝘀:
 
-🌐 <b>𝗗𝗼𝗻𝗮𝘁𝗲:</b> <a href="https://telegram.me/AnimeNetworktamil">💝 𝖲𝗎𝗉𝗉𝗈𝗋𝗍</a>
+🌐 <b>𝗗𝗼𝗻𝗮𝘁𝗲:</b> <a href="https://telegram.me/CodeRips">💝 𝖲𝗎𝗉𝗉𝗈𝗋𝗍</a>
 
-🇮🇳 𝗨𝗣𝗜 𝗜𝗗: <code>@UPI</code>
+🇮🇳 𝗨𝗣𝗜 𝗜𝗗 DM To Donate</b> <a href="https://t.me/Code_Rips_support_bot">Donate 💜</a>
 
 ────────────────
 
