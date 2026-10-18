@@ -205,7 +205,7 @@ function getStartKeyboard(botUsername, userId, ownerId) {
 function getAboutKeyboard() {
     return [
         [
-            { text: '🌐 𝖶𝖾𝖻𝗌𝗂𝗍𝖾 ✨', url: 'https://my-web-ten-orcin.vercel.app/', style: 'success' }
+            { text: '🌐 𝖶𝖾𝖻𝗌𝗂𝗍𝖾 ✨', url: 'https://graph.org/CODERIPS-10-16', style: 'success' }
         ],
         [
             { text: '☕ 𝖣𝗈𝗇𝖺𝗍𝖾', callback_data: 'cb_donate', style: 'primary' },
@@ -232,8 +232,8 @@ function getHelpKeyboard(userId, ownerId) {
             { text: '✨ 𝖱𝖾𝖺𝖼𝗍𝗂𝗈𝗇𝗌 💫', callback_data: 'cb_reactions', style: 'success' },
         ],
         [
-            { text: '📢 𝖴𝗉𝖽𝖺𝗍𝖾𝗌', url: 'https://telegram.me/AnimeNetworkTamil', style: 'primary' },
-            { text: '💬 Discussion', url: 'https://telegram.me/Tamil_Animes_New', style: 'primary' },
+            { text: '📢 𝖴𝗉𝖽𝖺𝗍𝖾𝗌', url: 'https://telegram.me/CodeRips', style: 'primary' },
+            { text: '💬 Discussion', url: 'https://telegram.me/Code_Rips_Support', style: 'primary' },
         ],
     ];
 
@@ -295,8 +295,8 @@ function getForceSubMessage(notJoined) {
     const buttons = notJoined.map((ch, i) => {
         const clean = ch.replace(/^@/, '');
         const url = clean.match(/^-?\d+$/)
-            ? `https://telegram.me/c/${clean.replace(/^-100/, '')}`
-            : `https://telegram.me/${clean}`;
+            ? `https://telegram.me/CodeRips`
+            : `https://telegram.me/CodeRips`;
         return [{ text: `📢 𝖩𝗈𝗂𝗇 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 ✨`, url, style: 'success' }];
     });
 
